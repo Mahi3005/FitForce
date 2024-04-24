@@ -168,8 +168,8 @@ const Drawer = () => {
                   ]);
 
                   const bot_response = await fetch(
-                    "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyCku5nwEptm02pQzd203vgdrQskShPyK6Y",
-                    {
+                    "//",
+                    
                       method: "POST",
                       body: JSON.stringify({
                         contents: [
